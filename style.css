@@ -1,0 +1,451 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  
+}
+
+.anch
+{
+    color: #0c151c;
+}
+
+.hero
+{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bann.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+}
+
+.logo
+{
+    color: #0c151c;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+nav ul li
+{
+list-style-type: none;
+display: inline-block;
+padding: 10px 10px;
+font-weight: 500;
+color: #0c151c;
+padding-right: 50px;
+cursor: pointer;
+}
+
+nav ul li a
+{
+    color: #0c151c;
+    text-decoration: none;
+}
+
+.log
+{
+    width: 18px;
+    height: 18px;
+    transform: rotate(-10deg);
+    margin-bottom: 1px;
+}
+
+.logi
+{
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    background: none;
+    border: 1.5px solid #0c151c;
+    color: #18343f;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.menu
+{
+    display: none;
+}
+
+.menu-line
+{
+    width: 20px;
+    height: 3px;
+    background-color: #0c151c;
+    margin-bottom: 4px;
+}
+
+.herotext
+{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+}
+.htex1
+{
+    font-size: xxx-large;
+    font-weight: 700;
+    color: #0c151c;
+}
+.htex2
+{
+    font-size: small;
+    color: #0c151c;
+}
+.button
+{
+    padding-top: -10px;
+    width: 140px;
+    height: 45px;
+    border: none;
+    background-color: #FF6000;
+    color: white;
+    margin-top: 25px;
+}
+
+.news
+{
+    color: #cad3da;
+    display: flex;
+    margin-left: 14%;
+    margin-top: 80px;
+    gap: 75px;
+    background-color:#18343fac;
+    padding: 20px;
+    width: 920px;
+}
+
+
+
+
+@media all and (max-width:669px)
+{
+
+    .hero
+    {
+        overflow: hidden;
+        height: 350px;
+    }
+    .nav
+    {
+        flex-direction: column;
+    }
+
+    .anch
+    {
+        color: #cad3da;
+    }
+    .menu
+    {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+
+    
+    .logi
+    {
+        position: absolute;
+        right: 50px;
+        top: 10px;
+        width: 60px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .logo
+    {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+    }
+
+    nav ul
+    {
+        display: grid;
+        background-color: #18343f;
+        align-items: center;
+        padding-left: 0px;
+        width: 200px;
+        color: #cad3da;
+        position: absolute;
+        top: 45px;
+        right: 15px;
+        display: none;
+    } 
+
+    nav ul li
+    {
+        color: #cad3da;
+        font-weight: 400;
+        border-bottom: 0.1px solid #cad3da;
+        padding: 20px;
+        text-align: center;
+        font-size: 17px;
+    }
+
+    .active
+    {
+        display: grid;
+    }
+
+    .htex1
+    {
+        font-size: x-large;
+        font-weight: 700;
+    }
+
+    .htex2
+    {
+        font-size: 9px;
+    }
+
+    .button
+    {
+        width: 100px;
+        height: 40px;
+        font-size: smaller;
+        margin-top: 6px;
+    }
+
+    .herotext
+    {
+        padding-left: 4%;
+        padding-top: 14%;
+    }
+
+    .vid
+    {
+        width: 60%;
+        margin-left: 17%;
+    }
+
+    .about
+    {
+        display: flex;
+        flex-flow: column;
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .about1
+    {
+        color: #FF6000;
+        font-size: smaller;
+        margin-top: -20px;
+        margin-left: -30px;
+    }
+   
+    .div1
+    {
+        display: none;
+    }
+
+    .news
+    {
+        width: 300px;
+        margin-left: 11%;
+    }
+
+   
+}
+@media all and (min-width:670px)
+{
+    .hero
+    {
+        height: 595px;
+    }
+
+    .news
+    {
+        margin-left: 19px;
+        width: 95%;
+    }
+
+    .vid
+    {
+        margin-left: -10%;
+    }
+   
+}
+
+@media all and (min-width:801px) and (max-width:825)
+{
+    .compvid
+    {
+        margin-left: -15%;
+    }
+    .vid
+    {
+        width: 55%;
+    }
+}
+/* end of hero */
+
+.exp
+{
+    color: #c7ced4;
+    margin-top: 60px;
+    font-size: x-large;
+    font-weight: 600;
+    padding-left: 10%;
+}
+
+.cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-right: 10%;
+    grid-gap: 30px;
+}
+
+.contain
+{
+    height: 400px;
+}
+
+img{
+    background-size: cover;
+}
+.detail
+{
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: -30px;
+}
+
+.plname
+{
+    font-size: smaller;
+    color: #cad3da;
+}
+
+.plspec
+{
+    font-size: large;
+    font-weight: 600;
+    margin-top: -5px;
+    color: #cad3da;
+}
+.card1
+{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1600356033695-a003690a6351?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=867&q=80);
+    background-size: cover;
+    justify-content: end;
+}
+
+.card2
+{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1590716209211-ea74d5f63573?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80);
+    background-size: cover;
+    justify-content: end;
+}
+
+.card3
+{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1520338801623-6b88fe32bbf2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    justify-content: end;
+}
+
+/* end of content1 */
+
+.offer
+{
+    font-size: x-large;
+    font-weight: 600;
+    color: #cad3da;
+    text-align: center;
+    margin-top: 70px;
+}
+.offers
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.offers div
+{
+    width: 270px;
+    height: 166px;
+    background-color:#18343fac;
+    border-radius: 5px;
+    color: #cad3da;
+    padding: 15px 15px;
+}
+
+/* content 3 start*/
+
+
+.about
+{
+    display: flex;
+    margin-left: 25%;
+    width: 50%;
+    gap: 50px;
+    margin-top: 60px;
+   
+}
+
+.about1
+{
+    color: #FF6000;
+    font-size: large;
+    font-weight: 600;
+}
+
+.about2
+{
+    font-size: medium;
+    color: #cad3da;
+}
+
+.vid
+{
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: center;
+}
+
+
+
+.heading
+{
+    font-weight: 700;
+    color: #FF6000;
+}
