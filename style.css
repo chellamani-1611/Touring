@@ -279,16 +279,19 @@ nav ul li a
         height: 595px;
     }
 
-    .news
+     .news
     {
-        margin-left: 19px;
-        width: 95%;
+        margin-left:25%;
+        width: 40%;
     }
 
     .vid
     {
         margin-left: -10%;
     }
+   .div1{
+    display: none;
+   }
    
 }
 
